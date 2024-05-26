@@ -1,0 +1,40 @@
+.profile {
+    margin-top: 50px;
+  }
+  
+  .profile-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-details {
+    padding-left: 30px;
+  }
+  
+  .detail {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .value {
+    color: #666;
+  }
+  
+  @media (max-width: 767px) {
+    .profile-photo {
+      margin-bottom: 20px;
+    }
+  }
+
+  .user-name {
+    font-family: 'Pacifico', cursive; /* Handwritten font */
+    font-size: 2.5rem; /* Larger font size */
+    color: #3498db; /* Blue color */
+    text-transform: capitalize; /* Capitalize each word */
+  }
+  

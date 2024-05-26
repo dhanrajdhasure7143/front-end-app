@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="navbar-left">
+      <span class="app-name">Ved-Soft</span>
+    </div>
+    <div class="navbar-right">
+      <div class="profile-photo" (click)="toggleProfileOverlay()">
+        <!-- <img [src]="user?.profile.profile_photo || 'assets/default-profile-photo.jpg'" alt="Profile Photo"> -->
+        <img src="https://t4.ftcdn.net/jpg/04/83/90/95/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg" alt="Profile Photo">
+      </div>
+      <div class="profile-overlay" *ngIf="showProfileOverlay">
+        <h3>Hellooooooooooooooooo</h3>
+        <p>Hiiiiiiiiiiiiiiiiiiii</p>
+        <!-- Display other user details here -->
+      </div>
+    </div>
+  </nav>
+  

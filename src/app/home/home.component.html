@@ -1,0 +1,54 @@
+<div class="container">
+    <h2 class="user-name">Welcome, {{ user?.name }}</h2>
+    <div class="row profile">
+      <div class="col-md-4 profile-photo">
+        <!-- <img [src]="user?.profile.profile_photo" alt="Profile Photo" class="img-fluid rounded-circle"> -->
+        <img src="https://t4.ftcdn.net/jpg/04/83/90/95/360_F_483909569_OI4LKNeFgHwvvVju60fejLd9gj43dIcd.jpg" alt="Profile Photo">
+
+      </div>
+      <div class="col-md-8 profile-details">
+        <div class="detail">
+          <span class="label">Email:</span>
+          <span class="value">{{ user?.email }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Employee ID:</span>
+          <span class="value">{{ user?.profile.emp_id }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Department:</span>
+          <span class="value">{{ user?.profile.department }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Role:</span>
+          <span class="value">{{ user?.profile.role }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Manager:</span>
+          <span class="value">{{ user?.profile.manager }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Joined Date:</span>
+          <span class="value">{{ user?.profile.joined_date }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Salary:</span>
+          <span class="value">{{ user?.profile.salary }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Shift Timing:</span>
+          <span class="value">{{ user?.profile.shift_timing }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Phone:</span>
+          <span class="value">{{ user?.profile.phone }}</span>
+        </div>
+        <div class="detail">
+          <span class="label">Address:</span>
+          <span class="value">{{ user?.profile.address }}</span>
+        </div>
+        <!-- Add more fields as needed -->
+      </div>
+    </div>
+  </div>
+  
